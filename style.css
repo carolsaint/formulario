@@ -1,0 +1,127 @@
+body{
+    text-align: left;
+    background-color: black;
+    color: #0B0B0B;
+    font-family: sans-serif;
+    margin: 0;
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #FFD000;
+    }
+
+    form{
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 23px;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 40px -4px rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    }   
+
+    input{
+        margin-top: 0px;
+    }
+    
+    h5{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    h4{
+        margin-top: 1px;
+    }
+
+    h1{
+        margin-bottom: 1px;
+    }
+
+    .button{
+        margin-top: 10px;
+        border: #FFD000;
+        border-radius: 8px;
+        background-color: #FFD000;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.primary-img{
+    height: 45px;
+    width: 140px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    line-height: 140%;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.links:hover{
+    color:#FFD000;
+    transition: all 0.4s;
+}
+
+.secondary-header{
+    color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 9px 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 140%;
+    margin-right: 16px;
+    border: 2px solid ;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #FFD000;
+    border: 2px solid #FFD000;
+    transition: all 0.3s;
+}
+
+.third-header{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.third-link:hover{
+    transition: all 0.3s;
+    cursor: pointer;
+}
